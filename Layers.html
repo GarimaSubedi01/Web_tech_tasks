@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layers</title>
+        <style>
+            header{
+                height: 100px;
+                width: 100%;
+                background-color: darkslategray;
+            }
+            #content{
+                height: 100px;
+                width: 100%;
+            }
+            #Application_Layer{
+                float: left;
+                height: 100px;
+                width: 30%;
+                background-color: darksalmon;
+            }
+            #Transport_Layer{
+                float: left;
+                height: 100px;
+                width: 40%;
+                background-color: cornflowerblue;
+            }
+            #Network_Layer{
+                float: right;
+                height: 100px;
+                width: 30%;
+                background-color: aliceblue;
+            }
+            footer{
+                height: 100px;
+                width: 100%;
+                background-color: chocolate;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Layered Architecture</h1>
+        </header>
+        <div id = content>
+            <div id = Application_Layer>
+                <h2>Application Layer</h2>
+                <ol>
+                    <li>
+                        It provides user interface.
+                    </li>
+                    <li>
+                        It Generates Data. 
+                    </li>    
+                </ol>
+            </div>
+            <div id = Transport_Layer>
+                <h2>Transport Layer</h2>
+                <ol>
+                    <li>
+                        Makes Segments.
+                    </li>
+                    <li>
+                        Flow control.
+                    </li>
+                </ol>
+            </div>
+            <div id = Network_Layer>
+                <h2>Network Layer</h2>
+                <ol>
+                    <li>
+                        Makes Packets.
+                    </li>
+                    <li>
+                        Provides Logical address.
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <footer>
+            Three layers of TCP/IP.
+        </footer>
+    </body>
+</html>                               
+        
+
+
