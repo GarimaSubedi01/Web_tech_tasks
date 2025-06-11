@@ -7,6 +7,6 @@ Use of header, footer and id.
 ### Task 2:
 Using Tables. Adding alternating colors to the columns. Merging rows and columns.
 
-### Task #:
+### Task 3:
 Did a mini project - a fashion blog using just html.
 
