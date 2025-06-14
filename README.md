@@ -10,3 +10,7 @@ Using Tables. Adding alternating colors to the columns. Merging rows and columns
 ### Task 3:
 Did a mini project - a fashion blog using just html.
 
+### Task 4:
+Created a login and registration pages using HTML forms. Used text input, number input, password input, radio buttons, added labels, added dropdowns, used datalists.
+I also added textarea and finally used submit buttons.
+
