@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+            *{
+                margin: 0%;
+                text-align: center;
+            }
+            header{
+                margin-top: 2%;
+                margin-left: 30%;
+                margin-right: 30%;
+                background-color: gainsboro;
+                font-size: large;
+                padding: 1%;
+                text-align: center;
+            }
+            #register{
+                line-height: 20px;
+                margin-left: 30%;
+                margin-right: 30%;
+                font-size: large;
+                background-color: lightpink;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <header><h1>Register</h1></header>
+        <div id="register">
+            <form>
+                <label for="name">*Name</label><br>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="email">*Email</label><br>
+                <input type="text"  id="email" name="email">
+                <br>
+                <label for="password">*Password</label><br>
+                <input type="password" id="password" name="password">
+                <br>
+                <label for="c_password">*Confirm Password</label><br>
+                <input type="password" id="c_password" name="c_password">
+                <br>
+                <label for="age">*Age</label><br>
+                <input type="number" id="age" name="age" step="1">
+                <br>
+                <p>*State</p>
+                <select name="state" id="state">
+                    <option value="Koshi">Koshi</option>
+                    <option value="Madhesh">Madhesh</option>
+                    <option value="Bagmati">Bagmati</option>
+                    <option value="Gandaki">Gandaki</option>
+                    <option value="Lumbini">Lumbini</option>
+                    <option value="Karnali">Karnali</option>
+                    <option value="Sudurpaschim">Sudurpaschim</option>
+                </select>
+                <br>
+                <label for="city">*City</label> <br>
+                <input type="text" name="city" id="city" list="cities">
+
+                <datalist id="cities">
+                    <option value="Kathmandu">Kathmandu</option>
+                    <option value="Lalitpur">Lalitpur</option>
+                    <option value="Bhaktapur">Bhaktapur</option>
+                    <option value="Others">Others</option>
+                </datalist>
+                <br>
+                <p>*Gender</p>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="others">Others</label>
+                <input type="radio" id="others" name="gender" value="others">
+                <br>
+                <br><br>
+            <div id="queries"><label for="Queries">Do you have any queries?</label><br>
+                <textarea name="Queries" id="Queries" rows="3" cols="40">You can share your thoughts here!</textarea>
+            </div>
+            <input style="font-size: large; color: black;" type="submit" value="Register">
+                
+            </form>
+        </div>    
+    </body>
+</html>
