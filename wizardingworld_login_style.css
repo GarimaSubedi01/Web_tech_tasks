@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'lumos';
+    src: url('LUMOS.TTF') format('truetype');
+}
+body{
+    text-align: center;
+    background-color: #00001b;
+    color: silver;
+}
+header{
+    background-color: #00001b;
+    color: silver;
+    font-family: cursive;
+}
+#submit{
+    padding: 10px;
+    margin: 20px;
+    font-size: large;
+    font-family: cursive;
+    background-color: maroon;
+    color: black;
+}
+form{
+    background-image: url('hogwartsletter.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    margin: 50px auto;
+    padding-top: 100px;
+    position: relative;
+    color: black;
+    font-family: cursive;
+    
+}
+
+h2{
+    font-family: cursive;
+}
+#signup{
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    font-size: large;
+    font-family: cursive;
+    background-color: maroon;
+    color: black;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+}

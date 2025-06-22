@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    background-color: #00001b;
+    color: silver;
+}
+header{
+    text-align: center;
+    padding-bottom: 40px;
+}
+table{
+    margin-left: 39%;
+    color: gold;
+    background-color: maroon;
+}
+table th{
+    background-color: gold;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: silver;
+}
+a:hover{
+    color: gold;
+}
+footer{
+    padding-top: 40px;
+}

@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: #00001b;
+    color: silver;
+    font-family: cursive;
+}
+header{
+    padding-bottom: 40px;
+}
+#Patronuses{
+    background-color: indigo;
+    border: 1px solid silver;
+}
+#Wands{
+    background-color: maroon;
+    color: gold;
+    border: 1px solid gold;
+}
+a{
+    color: silver;
+    text-decoration: none;
+
+}
+a:hover{
+    color: gold;
+}

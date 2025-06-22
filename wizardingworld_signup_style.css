@@ -1,0 +1,38 @@
+body{
+    background-color: #00001b;
+    text-align: center;
+    color: silver;
+}
+header{
+    background-color: #00001b;
+    color: silver;
+    font-family: cursive;
+    margin: auto;
+    padding-bottom: 50px;
+}
+form{
+    background-image: url('hogwartsletter.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 600px;
+    width: 600px;
+    margin: auto auto;
+    padding-top: 150px;
+    position: relative;
+    color: black;
+    font-family: cursive;
+}
+#submit{
+    padding: 10px;
+    margin: 5px;
+    font-size: large;
+    font-family: cursive;
+    background-color: maroon;
+    color: black;
+}
+footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25px;
+}

@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    color: silver;
+    background-color: #00001b;
+}
+.description{
+    background-color: #740001;
+    color: #eeba30;
+    border: 1px solid #eeba30;
+    padding: 10px;
+}
+header{
+    padding-bottom: 40px;
+}
+footer{
+    padding: 30px
+}
+a{
+    text-decoration: none;
+    color: silver;
+}
+a:hover{
+    color: #eeba30;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: #00001b;
+    color: silver;
+}
+header{
+    text-align: center;
+    font-family: cursive;
+}
+#hogwarts{
+    text-align: center;
+    border: 1px solid #eeba30;
+    background-color: #740001;
+    color: #eeba30;
+}
+#hogwarts p{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+#hogwarts h2{
+    font-family: cursive;
+}
+.castle{
+    text-align: center;
+}
+.castle #Great-hall{
+    text-align: center;
+    background-color: #0E1A40;
+    color: #5D5D5D;
+    border: 1px solid  #5D5D5D;
+    
+}
+.castle h2,h3{
+    font-family: cursive;
+}
+.castle p{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.castle #dungeons{
+    background-color: #2A623D;
+    color: #AAAA;
+    border: 1px solid silver;
+    
+}
+.castle #Hospital{
+    background-color: #EEB939;
+    color: #726255;
+    border: 1px solid #726255;;
+}
+footer{
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color: silver;
+    text-decoration: none;
+}
+a:hover{
+    color: gold;
+    
+}

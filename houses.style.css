@@ -1,0 +1,51 @@
+body{
+    background-color: #00001b;
+    text-align: center;
+    color: silver;
+    font-family: cursive;
+}
+header{
+    font-family: cursive;
+}
+nav{
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: silver;
+    text-align: center;
+}
+nav ul{
+    text-align: center;
+    list-style-position: inside;
+
+    
+    
+}
+li{
+    display: inline-block;
+
+    
+}
+#houses{
+    background-color: rgb(101, 67, 33);
+    border: 1px solid black;
+    color: black;
+}
+#Sorting{
+    background-color: indigo;
+    border: 1px solid black;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 75px;
+    text-align: center;
+}
+a:hover{
+    
+    color: darkblue;
+}
+
+

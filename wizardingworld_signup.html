@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wizarding world signup</title>
+        <link rel="stylesheet" href="wizardingworld_signup_style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Enrollment Form</h1>
+            <p>By decree of the Headmaster of Hogwarts School of Witchcraft and Wizardry, all students must register below.</p>
+        </header>
+        <form action="wizardinghome.html">
+            <div class="form_grp">
+            <label for="name">Name: </label><br>
+                <input type="text" name="name" id="name">
+                <br><br>
+                <label for="email">Email: </label><br>
+                <input type="text"  id="email" name="email">
+                <br><br>
+                <label for="password">Password: </label><br>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <label for="c_password">Confirm Password: </label><br>
+                <input type="password" id="c_password" name="c_password" minlength="8" maxlength="15" required>
+                <br><br>
+                <label for="age">Age: </label><br>
+                <input type="number" id="age" name="age" step="1" min="11" max="17">
+                <br><br>
+                
+                <label for="countries">Country: </label><br>
+                <input type="text" name="countries" id="countries" list="country">
+
+                <datalist id="country">
+                    <option value="England">England</option>
+                    <option value="France">France</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Others">Others</option>
+                </datalist>
+                <br>
+                </div>
+                <p>Gender: </p>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="others">Others</label>
+                <input type="radio" id="others" name="gender" value="others">
+                <br>
+                <br><br>
+            
+            <input  type="submit" value="Sign In" id="submit">
+        </form>
+        <footer>
+            <p>Wand ready. Minds Open. Magic awaits.</p>
+        </footer>
+    </body>
+</html>
