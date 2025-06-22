@@ -15,7 +15,7 @@ Created a login and registration pages using HTML forms. Used text input, number
 I also added textarea and finally used submit buttons.
 
 ### Task 5:
-Created a multipaged themed webbsite as my project.
+Created a multipaged themed website as my project.
 
 🪄 Wizarding World - A Magical Hogwarts Experience
 
